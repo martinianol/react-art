@@ -1,12 +1,12 @@
-button {
+/* button {
   cursor: pointer;
   background: none;
   line-height: inherit;
-}
+} */
 
-button:focus {
+/* button:focus {
   outline: none;
-}
+} */
 
 #auth-inputs {
   width: 100%;
@@ -19,7 +19,13 @@ button:focus {
   color: white;
 }
 
-label.invalid {
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+/* label.invalid {
   color: #f87171;
 }
 
@@ -29,11 +35,7 @@ input.invalid {
   background-color: #fed2d2;
 }
 
-.actions {
-  display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
-}
+
 
 .button {
   padding: 1rem 2rem;
@@ -57,4 +59,4 @@ input.invalid {
 
 .text-button:hover {
   color: #f0920e;
-}
+} */
